@@ -1,8 +1,4 @@
 #! /bin/bash
-# Change these four parameters as needed
-ACI_PERS_STORAGE_ACCOUNT_NAME=mystorageaccount$RANDOM
-ACI_PERS_LOCATION=eastus
-ACI_PERS_SHARE_NAME=acishare
 
 # Create the storage account with the parameters
 az storage account create \
